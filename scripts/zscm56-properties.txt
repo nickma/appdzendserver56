@@ -1,0 +1,48 @@
+"DOWNLOADRPMURL" property is Zend Server yum configuration script. It adds two addresses repositories required by the RPM installer
+Default value: http://downloads.zend.com/zendserver/5.6.0/ZendServer-5.6.0-RepositoryInstaller-linux.tar.gz
+Property type: String
+
+"global_conf" property is the URL to download Darwin global configuration for each node.
+Default value :https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+Property type: Content
+
+"zscm_db_password" property is MySQL password for Zend Cluster DB User, this is not the administration password.
+Property type: String
+
+"zscm_db_user" property is MySQL user that will be used by Zend Server Cluster Manager and Zend Server nodes to communicate to Zend Cluster DB. Identified by "zscm_db_password" property
+Property type: String
+
+"zendmanager_order_number" property is ZSCM Order number. 
+Property type: String
+
+"zendmanager_license_key" property is ZSCM License key.
+Property type: String
+
+"zend_node_ui_pass" property is node UI password. 
+Property type: String
+
+"zendmanager_db_port" property is the port on which MySQL Database is listening for connections. 
+Property type: String
+
+"zend_order_number" property is Zend Server PHP Application order number ,not cluster manager license but sometime can match.
+
+"db_root_passowrd" property is MySQL Database administrative password. This password is used during the installation or upgrade of Zend Server Cluster. 
+Property type: String
+
+"zend_api_key_name" property is API key name that is used by Zend nodes to communicate with Zernd Cluster Manager 
+Property type: String
+
+"zend_api_key" property is API key required by Zend nodes to be able to communicate with Zend Cluster Manager
+Property type: String
+
+"zendmanager_db_host" property is the address of MySQL Database Server that will be used to store Zend Cluster Databases. 
+Property type: String
+
+"zendmanager_ui_pass" property is Zend Cluster Manager UI Password.  
+Property type: String
+
+"db_root_username" property is MySQL administrative username 
+Property type: String
+
+"zend_license_key" property is Zend Server license key, not Cluster Manager.  
+Property type: String

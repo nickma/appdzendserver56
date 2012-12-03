@@ -1,0 +1,36 @@
+Properties for Zend Server PHP Application Server (Standalone or Cluster Node)
+
+"DOWNLOADRPMURL" property is Zend Server yum configuration script. It adds two addresses repositories required by the RPM installer
+Default value: http://downloads.zend.com/zendserver/5.6.0/ZendServer-5.6.0-RepositoryInstaller-linux.tar.gz
+Property type: String 
+
+"global_conf" property is the URL to download Darwin global configuration for each node.
+Default value :https://${darwin.server.ip}:8443/darwin/conf/darwin_global.conf
+Property type: Content
+
+"zendnode_ui_pass" property is the Zend Server User Interface password that will be defined during the installation.
+Property type: String 
+This property is of a required type and should be adequate length is the UI ports are exposed to the network.
+
+"zend_zscm_host" property is not required and is used in Clustered setups only.
+Property type: String
+
+"zendnode_is_node" property has to be set to 1.  
+Property type: String
+
+"zend_api_key_name" property is not required and is used in Clustered setups only.
+Property type: String
+
+"zend_api_key" property is not required and is used in Clustered setups only.
+Property type: String
+
+"zend_license_key" this property is Zend Server license key
+Property type: String
+This property is of a required type and can be a trial key obtained from a below URL listed or you current Zend Server license.
+
+"zend_order_number" this property is Zend Server Order number which is provided with Zend Server License. 
+Property type: String
+This property is of a required type and can be a trial key obtained from a below URL listed or you current Zend Server license.
+
+Trial URL:
+http://www.zend.com/products/server/license

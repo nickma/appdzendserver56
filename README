@@ -1,0 +1,11 @@
+Before you start using Clustered Zend Server you will have to obtain a trial license or locate you current Zend Server license.
+
+For trial license request open the following link:http://www.zend.com/products/server/license
+
+Please refer to ClusteredZendServerPHPApplicationServer.pdf for blueprint information.
+
+After the successful deployment Zend Server Cluster Manager UI will be available at ports 10081 and 10082 on the ZSCM node.
+You can make additional customization of your PHP and Cluster settings though the UI.
+
+Zend API reference information can be found at the following link:
+http://files.zend.com/help/Zend-Server/zend-server.htm#web_api_reference_guide.htm
