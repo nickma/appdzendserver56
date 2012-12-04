@@ -1,4 +1,4 @@
-[zs_lic]: https://raw.github.com/nickma/appdzendserver56/master/Zend_ZendServer_Clustered_Beta/zs_installer.png 
+[zs_lic]: https://raw.github.com/nickma/appdzendserver56/master/zs_installer.png 
 [zs_order]: https://raw.github.com/nickma/appdzendserver56/master/zs_installerord.png  
 
 ## Success
