@@ -7,6 +7,7 @@ Your application has been successfully imported and ready to go but first there 
 ### Next Step
 
 In Zend Server Service, you will need to ensure that you have configured the **zend_license_key** , **zend_order_number** properties to match your current or trial license key and order number. 
+
 You can find your current Zend Server licenses at our website. http://www.zend.com/myzend or request a trial license at http://www.zend.com/en/products/server/server-6-beta   
 
 [![Zend Server Installer][zs_lic]][zs_lic]
