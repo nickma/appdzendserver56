@@ -1,5 +1,5 @@
 [zs_lic]: https://raw.github.com/nickma/appdirector-solutions/master/Zend_ZendServer_Clustered_Beta/zs_installer.png 
-[zs_order]: https://raw.github.com/nickma/appdirector-solutions/master/Zend_ZendServer_Clustered_Beta/zs_installerord.png  
+[zs_order]: https://raw.github.com/nickma/appdzendserver56/master/zs_installerord.png  
 
 ## Success
 Your application has been successfully imported and ready to go but first there are a few final steps you need to follow before you can perform a deployment.
